@@ -9,6 +9,7 @@ Place all written answers from `recitation-05.md` here for easier grading.
 
 - **1b.**
 Sorted:
+
 |   n |   qsort-fixed-pivot |   qsort-random-pivot |
 |-----|---------------------|----------------------|
 |  10 |               0.086 |                0.061 |
@@ -40,6 +41,7 @@ Using a fixed pivot on a sorted list proves to be highly inefficient, particular
 
 - **1c.**
 Sorted:
+
 |   n |   qsort-fixed-pivot |   qsort-random-pivot |   tim_sorted |
 |-----|---------------------|----------------------|--------------|
 |  10 |               0.069 |                0.042 |        0.003 |
@@ -67,4 +69,4 @@ Unsorted:
 | 600 |               3.373 |                4.195 |        0.072 |
 | 700 |               2.921 |                3.760 |        0.117 |
 
-Tim Sort signifacntly outperforms the other algorithms. It has the quickest execution times, irrespective of the list being sorted or shuffled.
+Tim Sort significantly outperforms the other algorithms. It has the quickest execution times, irrespective of the list being sorted or shuffled.
